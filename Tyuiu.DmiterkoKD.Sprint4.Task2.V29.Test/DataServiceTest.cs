@@ -16,7 +16,7 @@ namespace Tyuiu.DmiterkoKD.Sprint4.Task2.V29.Test
             int[] ar = { 5, 3, 3, 4, 1, 3, 3, 5, 6, 2, 7};
 
             int res = ds.Calculate(ar);
-            int wait = 12;
+            int wait = 48;
 
             Assert.AreEqual(res, wait);
         }

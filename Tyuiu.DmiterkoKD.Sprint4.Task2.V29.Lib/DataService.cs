@@ -5,13 +5,13 @@ namespace Tyuiu.DmiterkoKD.Sprint4.Task2.V29.Lib
     {
         public int Calculate(int[] array)
         {
-            int s = 0;
+            int s = 1;
             for (int i = 0; i < array.Length; i++)
             {
                 int k = array[i];
                 if (k % 2 == 0)
                 {
-                    s += k;
+                    s *= k;
                 }
             }
             return s;
