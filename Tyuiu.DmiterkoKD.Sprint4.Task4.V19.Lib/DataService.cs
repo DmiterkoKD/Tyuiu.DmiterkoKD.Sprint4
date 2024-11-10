@@ -15,7 +15,7 @@ namespace Tyuiu.DmiterkoKD.Sprint4.Task4.V19.Lib
                 {
                     if (matrix[i, j] % 2 != 0)
                     {
-                        c++;
+                        c+=matrix[i,j];
                     }
                 }
             }

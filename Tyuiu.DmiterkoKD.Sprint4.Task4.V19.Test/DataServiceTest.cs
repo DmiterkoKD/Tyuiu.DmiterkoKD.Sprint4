@@ -19,7 +19,7 @@ namespace Tyuiu.DmiterkoKD.Sprint4.Task4.V19.Test
                                         {3, 1, 5, 7, 7} };
 
             int res = ds.Calculate(mas);
-            int wait = 14;
+            int wait = 68;
             Assert.AreEqual(res, wait);
         }
     }
